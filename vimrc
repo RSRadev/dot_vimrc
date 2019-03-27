@@ -1,8 +1,10 @@
 colorscheme desert
-set nu
+
+
+map<F5> set nu!
 syntax on
 filetype plugin indent on
-autocmd vimenter * NERDTree
+
 autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
 set title
 set nomodeline
