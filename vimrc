@@ -1,6 +1,6 @@
 colorscheme desert
 
-
+map<F@>NERDTree
 map<F5> set nu!
 syntax on
 filetype plugin indent on
