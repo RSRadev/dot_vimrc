@@ -1,7 +1,10 @@
+''perl
+
 colorscheme desert
 
 map<F2> NERDTree
 map<F5> set nu!
+
 syntax on
 filetype plugin indent on
 
