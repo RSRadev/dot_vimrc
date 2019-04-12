@@ -1,10 +1,10 @@
 
-colorscheme desert
+colorscheme murphy
 
-map<F2> NERDTree
-
+map<F2> :Vexplore
+map<F5> :set nu!
 syntax on
-filetype plugin indent on
+
 
 autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
 
@@ -17,3 +17,4 @@ set number " <- shows line numbers
 set encoding=utf8
 set ruler
 set keywordprg=perldoc\-f
+set cursorline
