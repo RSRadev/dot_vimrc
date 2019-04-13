@@ -1,7 +1,7 @@
 
 colorscheme murphy
 
-map<F2> :Vexplore
+map<F2> :NERDTree
 map<F5> :set nu!
 syntax on
 
