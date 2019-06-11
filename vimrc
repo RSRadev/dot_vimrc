@@ -1,4 +1,3 @@
-
 colorscheme murphy
 
 map<F2> :NERDTree
