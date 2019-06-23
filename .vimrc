@@ -1,6 +1,5 @@
-colorscheme murphy
-
-map<F2> :NERDTree
+colorscheme desert
+map<F2> :Vexplore
 map<F5> :set nu!
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
 
