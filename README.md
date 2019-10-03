@@ -3,7 +3,7 @@ FOLLOW:
 git clone then 
 
 ____________________________________________________
-Execute the commands from this repos:
+Execute the commands from following repos:
 
 https://github.com/tpope/vim-pathogen
 
