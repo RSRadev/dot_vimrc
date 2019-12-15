@@ -1,5 +1,7 @@
 colorscheme ron
+
 map<F2> :NERDTree
+
 map<F5> :set nu!
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
 autocmd BufRead *.py set makeprg=python\ -c\ \"import\ py_compile,sys;\ sys.    stderr=sys.stdout;\ py_compile.compile(r'%')\"
