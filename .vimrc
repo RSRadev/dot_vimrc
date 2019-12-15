@@ -3,12 +3,14 @@ colorscheme ron
 map<F2> :NERDTree
 
 map<F5> :set nu!
+#CHECK PERL SYNTAX
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
+#CHECK PYTHON SYNTAX
 autocmd BufRead *.py set makeprg=python\ -c\ \"import\ py_compile,sys;\ sys.    stderr=sys.stdout;\ py_compile.compile(r'%')\"
 autocmd BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z    %[%^\ ]%\\@=%m
 autocmd BufRead *.py nmap <F8> :!python %<CR>
 
-
+#PATHOGEN
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
