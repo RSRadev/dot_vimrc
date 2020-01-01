@@ -3,7 +3,6 @@
 my $rc_file = '/home/raddy/.vimrc';
 
 
-
 my $conf =q(colorscheme ron
 map<F2> :NERDTree
 map<F5> :set nu!
