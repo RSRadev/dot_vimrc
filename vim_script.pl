@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 
 my $rc_file = '/home/raddy/.vimrc';
-
-
 my $conf =q(colorscheme ron
 map<F2> :NERDTree
 map<F5> :set nu!
@@ -24,7 +22,7 @@ set noundofile
 set mouse=
 set number " <- shows line numbers
 set encoding=utf8
-set keywordprg=perldoc\-f ); 
+set keywordprg=perldoc\-f); 
 
 open(FH, '>', $rc_file) or die $!;
 
