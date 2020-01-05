@@ -9,3 +9,5 @@ https://github.com/tpope/vim-pathogen
 
 https://github.com/scrooloose/nerdtree
 ____________________________________________________
+
+or execute the perl script...
