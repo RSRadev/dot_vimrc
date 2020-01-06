@@ -1,13 +1,1 @@
-FOLLOW:
-
-git clone then 
-
-____________________________________________________
-Execute the commands from following repos:
-
-https://github.com/tpope/vim-pathogen
-
-https://github.com/scrooloose/nerdtree
-____________________________________________________
-
-or execute the perl script...
+My vim configuration file(.vimrc) and perl script(vim_script.pl) for installing it *nix OS(for FreeBSD change the first line to "#!/usr/local/bin/perl").
