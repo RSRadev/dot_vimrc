@@ -40,4 +40,4 @@ close FH;
 
 `git clone git@github.com:gkjgh/cobalt.git`;
 
-`cp cd /usr/home/raddy/*/colors /home/raddy/.vim/`;
+`cp -rf /usr/home/raddy/*/colors /home/raddy/.vim/`;
