@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 my $rc_file = '/home/raddy/.vimrc';
-my $conf =q(colorscheme ron
+my $conf =q(colorscheme cobalt
 map<F2> :NERDTree
 map<F5> :set nu!
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
@@ -35,3 +35,5 @@ close FH;
 `curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim`;
 
 `git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree`; 
+
+`git clone git@github.com:gkjgh/cobalt.git`;
