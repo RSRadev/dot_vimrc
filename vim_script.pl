@@ -36,6 +36,8 @@ close FH;
 
 `git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree`; 
 
+`cd /usr/home/raddy/`;
+
 `git clone git@github.com:gkjgh/cobalt.git`;
 
-`cp ~/colors /home/raddy/.vim/`;
+`cp cd /usr/home/raddy/*/colors /home/raddy/.vim/`;
