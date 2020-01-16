@@ -35,9 +35,3 @@ close FH;
 `curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim`;
 
 `git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree`; 
-
-`cd /usr/home/raddy/`;
-
-`git clone git@github.com:gkjgh/cobalt.git`;
-
-`cp -rf /usr/home/raddy/*/colors /home/raddy/.vim/`;
