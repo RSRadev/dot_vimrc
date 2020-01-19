@@ -1,4 +1,4 @@
-colorscheme ron
+colorscheme 
 
 map<F2> :NERDTree
 
