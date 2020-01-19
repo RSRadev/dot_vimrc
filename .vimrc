@@ -1,4 +1,4 @@
-colorscheme 
+colorscheme c
 
 map<F2> :NERDTree
 
