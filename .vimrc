@@ -1,4 +1,4 @@
-colorscheme coba
+colorscheme cobal
 
 map<F2> :NERDTree
 
