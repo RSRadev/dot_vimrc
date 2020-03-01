@@ -1,7 +1,6 @@
 colorscheme cobalt
 
 map<F2> :NERDTree
-
 map<F5> :set nu!
 
 #CHECK PERL SYNTAX
