@@ -17,6 +17,7 @@ syntax on
 filetype plugin indent on
 autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
 
+#SETTINGS
 set title
 set nomodeline
 set nobackup
