@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 
 my $rc_file = '/home/raddy/.vimrc';
-my $conf =q(colorscheme cobalt
+my $conf =q(
+#colorscheme cobalt
 map<F2> :NERDTree
 map<F5> :set nu!
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
