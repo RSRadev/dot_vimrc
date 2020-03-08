@@ -1,9 +1,9 @@
 colorscheme cobalt
-map<F2> :NERDTree
-map<F5> :set nu! 
-map<F4> :w !perl -I/usr/local/www/lib/perl -cT <cr>
 
+map<F2> :NERDTree
 autocmd BufWinEnter *.py nnoremap <F3> :w<CR>:!python3 %:p<CR>
+map<F4> :w !perl -I/usr/local/www/lib/perl -cT <cr>
+map<F5> :set nu! 
 
 execute pathogen#infect()
 syntax on
@@ -18,4 +18,3 @@ set mouse=
 set number " <- shows line numbers
 set encoding=utf8
 set keywordprg=perldoc\-f
-
