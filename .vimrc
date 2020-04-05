@@ -19,3 +19,4 @@ set mouse=
 set number " <- shows line numbers
 set encoding=utf8
 set keywordprg=perldoc\-f
+set tabstop=3
