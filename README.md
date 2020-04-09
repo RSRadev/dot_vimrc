@@ -4,6 +4,4 @@
 
 1)run ./vim_script.pl
 
-2)mv colors to ~/.vim
-
-3)enjoy
+*mv colors to ~/.vim
