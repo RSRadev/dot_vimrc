@@ -1,7 +1,7 @@
--my vim configuration file(.vimrc) and perl script(vim_script.pl) for installing it with all dependencies on *nix OS(for BSD change the first line to "#!/usr/local/bin/perl");
+*my vim configuration file(.vimrc) and perl script(vim_script.pl) for autoconfig it with all dependencies on *nix OS(for BSD eventually change perl path to "#!/usr/local/bin/perl");
 
--version of colorscheme cobalt is also in the repo; 
+**version of colorscheme cobalt is also in the repo; 
 
-1)run ./vim_script.pl
+***run ./vim_script.pl
 
-*mv colors to ~/.vim
+****mv colors to ~/.vim created in your /home/usr directory
