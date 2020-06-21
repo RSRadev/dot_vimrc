@@ -1,4 +1,4 @@
-colorscheme cobalt
+#colorscheme cobalt
 
 map<F2> :NERDTree
 autocmd BufWinEnter *.py nnoremap <F8> :w<CR>:!python3 %:p<cr>
