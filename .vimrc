@@ -1,5 +1,4 @@
 colorscheme delek
-
 map<F2> :NERDTree
 autocmd BufWinEnter *.py nnoremap <F8> :w<CR>:!python3 %:p<cr>
 map<F9> :w !perl -I/usr/local/www/lib/perl -cT <cr>
