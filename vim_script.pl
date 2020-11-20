@@ -2,7 +2,6 @@
 
 my $rc_file = '/home/raddy/.vimrc';
 my $vimrc =q(
-#colorscheme available cobalt and miramare
 
 colorscheme delek
 
