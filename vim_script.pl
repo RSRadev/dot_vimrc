@@ -12,8 +12,10 @@ map<F7> :w !node
 map<F5> :set nu! 
 
 execute pathogen#infect()
+
 syntax on
 filetype plugin indent on
+
 autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
     
 set title
