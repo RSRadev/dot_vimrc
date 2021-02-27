@@ -3,7 +3,7 @@
 my $rc_file = '/home/raddy/.vimrc';
 my $vimrc =q(
 
-colorscheme delek
+colorscheme wombat
 
 map<F2> :NERDTree
 autocmd BufWinEnter *.py nnoremap <F8> :w<CR>:!python3 %:p<cr>
