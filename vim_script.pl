@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-my $rc_file = '/home/raddy/.vimrc';
+`touch .vimrc`;
+my $rc_file = '~/.vimrc';
 my $vimrc =q(
 
 colorscheme wombat
