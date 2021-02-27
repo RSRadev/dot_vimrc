@@ -1,7 +1,7 @@
-#!/usr/bin/perl
+#!/usr/env perl
 
-`touch .vimrc`;
-my $rc_file = '~/.vimrc';
+`cd && touch .vimrc`;
+my $rc_file = '.vimrc';
 my $vimrc =q(
 
 colorscheme wombat
