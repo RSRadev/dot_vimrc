@@ -11,7 +11,7 @@
         { "command": "nextTab", "keys": "ctrl+pgdn" },
         { "command": "prevTab", "keys": "ctrl+pgup" },
         { "command": "newTab", "keys": "ctrl+t" },
-        { "command": "closePane", "keys": "ctrl+w" },
+        { "command": "closePane", "keys": "ctrl+shift+w" },
 
         {
             "command": 
