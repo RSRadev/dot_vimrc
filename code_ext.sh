@@ -9,4 +9,6 @@ code --install-extension ms-toolsai.jupyter
 code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension RandomFractalsInc.vscode-data-preview
+code --install-extension scala-lang.scala
 code --install-extension vscode-icons-team.vscode-icons
+
